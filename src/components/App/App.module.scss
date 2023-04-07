@@ -1,0 +1,36 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+}
+
+.count {
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+
+.buttons {
+	display: flex;
+	margin: 0 -10px 20px;
+
+	button {
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		margin: 0 10px;
+		cursor: pointer;
+		background-color: #000;
+		color: #fff;
+		font-size: 20px;
+		transition: all 0.3s ease;
+	}
+}
+
+.todos > div {
+	padding: 10px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
